@@ -1,4 +1,27 @@
-body {
-  opacity: inherit;
-  /* just meant as a placeholder */
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.col {
+  flex-basis: 30%;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+.subbertitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+h4 {
+  margin-bottom: 4px;
 }
